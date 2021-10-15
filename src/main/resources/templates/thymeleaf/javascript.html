@@ -24,8 +24,8 @@
 			
 			<script th:inline="javascript">
 			
-				var name = [[${name}]]; 	// ServerSide에서 데이터 바인딩
-				var message = `Your's Name is ${name}`; // ClientSide에서 데이터 바인딩
+				var yname = [[${name}]]; 	// ServerSide에서 데이터 바인딩
+				var message = `Your's Name is ${yname}`; // ClientSide에서 데이터 바인딩
 				console.log("message: " + message);
 				/*
 				// ClientSide에서 실행할 때 Backtick의 바인딩 기호: ${} -> 타임리프가 해석하지 않음
