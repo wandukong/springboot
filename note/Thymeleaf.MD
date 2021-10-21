@@ -342,7 +342,7 @@ model.addAttribute("url2", "/t1/detail");
 ### session 객체
 ```html
 <div>Current User: [[${session.sessionMid}]]</div>
-				<div>Current User: [[${#session.getAttribute("sessionMid")}]]</div>
+<div>Current User: [[${#session.getAttribute("sessionMid")}]]</div>
 ```
 <hr/>
 
